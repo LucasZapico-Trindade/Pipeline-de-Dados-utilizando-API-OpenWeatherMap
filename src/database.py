@@ -5,7 +5,7 @@ def salvar_no_postgres(cidade, pais, temperatura, umidade, clima, data_coleta):
         host="localhost",
         database="weather_db",
         user="postgres",
-        password="SUA_SENHA"
+        password="spfc1909"
     )
 
     cursor = conn.cursor()
